@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class ShopController : MonoBehaviour
 {
     [SerializeField] Text _goldTextView;
+    public int gold = 1000;
 
     private void Update()
     {
-
-        //gets highscore and displays it on canvas
-        int gold = 1000;
+        //gets gold and displays it on canvas
+        
         _goldTextView.text = gold.ToString();
     }
 }
