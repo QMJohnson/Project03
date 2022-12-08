@@ -11,7 +11,6 @@ public class ShopController : MonoBehaviour
     private void Update()
     {
         //gets gold and displays it on canvas
-        
         _goldTextView.text = gold.ToString();
     }
 }
