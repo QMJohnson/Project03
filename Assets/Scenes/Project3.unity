@@ -3055,6 +3055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a00930a8922069448bcdb07fa29086f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spend: {fileID: 8300000, guid: 2142e934408437643b1aa42b36b9967f, type: 3}
   shopController: {fileID: 209379899}
 --- !u!4 &1405756141
 Transform:
